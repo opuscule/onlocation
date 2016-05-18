@@ -269,6 +269,32 @@ body {
 	&--vidframe {
 		margin: 60px 0;
 	}
+
+	&--quotes {
+		&--row {
+			text-transform: uppercase;
+			max-width: 70%; //needs to match video width
+			margin: auto;
+		}
+
+		&--text--wrapper {
+			max-width: 90%;
+			margin: auto;
+		}
+
+		&--attribution {
+			font-weight: bold;
+			letter-spacing: .14em;
+			font-size: 14px;
+		}
+
+		&--quotetext {
+			letter-spacing: .08em;
+			font-size: 14px;
+			line-height: 28px;
+
+		}
+	}
 }
 
 // About us section styles

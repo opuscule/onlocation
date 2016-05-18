@@ -296,17 +296,40 @@ body {
 .draft--vidframe {
   margin: 60px 0;
 }
+/* line 274, ../sass/styles.scss */
+.draft--quotes--row {
+  text-transform: uppercase;
+  max-width: 70%;
+  margin: auto;
+}
+/* line 280, ../sass/styles.scss */
+.draft--quotes--text--wrapper {
+  max-width: 90%;
+  margin: auto;
+}
+/* line 285, ../sass/styles.scss */
+.draft--quotes--attribution {
+  font-weight: bold;
+  letter-spacing: .14em;
+  font-size: 14px;
+}
+/* line 291, ../sass/styles.scss */
+.draft--quotes--quotetext {
+  letter-spacing: .08em;
+  font-size: 14px;
+  line-height: 28px;
+}
 
-/* line 276, ../sass/styles.scss */
+/* line 302, ../sass/styles.scss */
 .aboutus {
   padding: 60px 0 0;
 }
-/* line 279, ../sass/styles.scss */
+/* line 305, ../sass/styles.scss */
 .aboutus h1 {
   letter-spacing: .24em;
   text-transform: uppercase;
 }
-/* line 284, ../sass/styles.scss */
+/* line 310, ../sass/styles.scss */
 .aboutus p {
   color: #171717;
   font-family: AauxNext-Medium;
@@ -318,20 +341,20 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 296, ../sass/styles.scss */
+/* line 322, ../sass/styles.scss */
 .aboutus .copyright {
   margin: 100px 0 30px 0;
 }
-/* line 299, ../sass/styles.scss */
+/* line 325, ../sass/styles.scss */
 .aboutus .copyright p, .aboutus .copyright a {
   font-size: 11px;
   color: #8e8e8e;
 }
-/* line 304, ../sass/styles.scss */
+/* line 330, ../sass/styles.scss */
 .aboutus .copyright a {
   text-decoration: underline;
 }
-/* line 309, ../sass/styles.scss */
+/* line 335, ../sass/styles.scss */
 .aboutus--paragraphs--wrapper {
   margin-top: 40px;
 }
