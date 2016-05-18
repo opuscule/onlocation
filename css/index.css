@@ -1,0 +1,202 @@
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/312318");
+@font-face {
+  font-family: 'AauxNext-Regular';
+  src: url("fonts/312318_0_0.eot");
+  src: url("fonts/312318_0_0.eot?#iefix") format("embedded-opentype"), url("fonts/312318_0_0.woff2") format("woff2"), url("fonts/312318_0_0.woff") format("woff"), url("fonts/312318_0_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'AauxNext-Medium';
+  src: url("fonts/312318_1_0.eot");
+  src: url("fonts/312318_1_0.eot?#iefix") format("embedded-opentype"), url("fonts/312318_1_0.woff2") format("woff2"), url("fonts/312318_1_0.woff") format("woff"), url("fonts/312318_1_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'AauxNext-Light';
+  src: url("fonts/312318_2_0.eot");
+  src: url("fonts/312318_2_0.eot?#iefix") format("embedded-opentype"), url("fonts/312318_2_0.woff2") format("woff2"), url("fonts/312318_2_0.woff") format("woff"), url("fonts/312318_2_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'EndzoneSans-Bold';
+  src: url("../fonts/EndzoneSans-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: 'EndzoneSans-Medium';
+  src: url("../fonts/EndzoneSans-Medium.otf") format("opentype");
+}
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 8, ../sass/styles.scss */
+body {
+  background-color: #101010;
+  color: #ffffff;
+  letter-spacing: .03em;
+}
+
+/* line 13, ../sass/styles.scss */
+.container-fluid {
+  width: 100%;
+  max-width: 1362px;
+}
+
+/* line 15, ../sass/styles.scss */
+.AauxNext-Regular {
+  font-family: AauxNext-Regular;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 20, ../sass/styles.scss */
+.AauxNext-Medium {
+  font-family: AauxNext-Medium;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../sass/styles.scss */
+.AauxNext-Light {
+  font-family: AauxNext-Light;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../sass/styles.scss */
+.titleU {
+  width: 125px;
+  height: 4px;
+  margin: 16px auto;
+}
+
+/* line 32, ../sass/styles.scss */
+.titleUdark {
+  background-color: #000000;
+}
+
+/* line 33, ../sass/styles.scss */
+.titleUlight {
+  background-color: #ffffff;
+}
+
+/* line 35, ../sass/styles.scss */
+.hero {
+  background-image: url("../img/herobg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 770px;
+}
+
+/* line 38, ../sass/styles.scss */
+.hero a {
+  background-color: #c8152b;
+  color: #ffffff;
+  display: inline-block;
+}
+
+/* line 41, ../sass/styles.scss */
+.experience h3,
+.experience .experience-subtext {
+  text-transform: uppercase;
+}
+
+/* line 43, ../sass/styles.scss */
+.experience img {
+  width: 100%;
+}
+
+/* line 46, ../sass/styles.scss */
+.packages, .aboutus {
+  background-color: #f2f2f2;
+  color: #000000;
+}
+
+/* line 47, ../sass/styles.scss */
+.packages h1 {
+  text-transform: uppercase;
+}
+
+/* line 48, ../sass/styles.scss */
+.packages h2 {
+  text-transform: uppercase;
+}
+
+/* line 49, ../sass/styles.scss */
+.packages p {
+  clear: both;
+}
+
+/* line 53, ../sass/styles.scss */
+.draft h1 {
+  text-transform: uppercase;
+}
+
+/* line 55, ../sass/styles.scss */
+.copyright {
+  margin: 100px 0 30px 0;
+}
+
+/* line 56, ../sass/styles.scss */
+.copyright p {
+  color: #8e8e8e;
+}
+
+/* line 61, ../sass/styles.scss */
+.btn-red {
+  font-family: 'EndzoneSans-Medium';
+  background-color: #c91529;
+  border-radius: 0;
+  font-size: 16px;
+  letter-spacing: .24em;
+  padding: 13px 44px;
+  text-transform: uppercase;
+}
+/* line 71, ../sass/styles.scss */
+.btn-red a:active, .btn-red a:hover, .btn-red a:focus {
+  border: none;
+  color: #ebebeb;
+}
+
+/* line 84, ../sass/styles.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #ebebeb;
+}
+/* line 87, ../sass/styles.scss */
+.navbar-default .navbar-nav > li > a:hover {
+  color: inherit;
+}
+
+/* line 92, ../sass/styles.scss */
+.navbar {
+  background: #101011;
+  border: none;
+  margin: 24px 0;
+}
+/* line 97, ../sass/styles.scss */
+.navbar li a {
+  padding: 15px 30px;
+  letter-spacing: .24em;
+}
+
+/* line 109, ../sass/styles.scss */
+.hero--content--wrapper {
+  margin: 200px 0;
+}
+/* line 114, ../sass/styles.scss */
+.hero--header {
+  letter-spacing: .16em;
+}
+/* line 117, ../sass/styles.scss */
+.hero--header--main {
+  font-family: 'EndzoneSans-Bold';
+  font-size: 30px;
+}
+/* line 123, ../sass/styles.scss */
+.hero--header--sub {
+  font-size: 20px;
+  font-family: 'EndzoneSans-Medium';
+  line-height: 60px;
+}
+/* line 134, ../sass/styles.scss */
+.hero .btn-cta {
+  margin: 40px 0;
+}

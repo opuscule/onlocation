@@ -1,0 +1,140 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+// @import "compass/reset";
+
+body {
+	background-color: #101010;
+	color: #ffffff;
+	letter-spacing: .03em;
+}
+.container-fluid { width: 100%; max-width: 1362px; }
+
+.AauxNext-Regular {
+	font-family: AauxNext-Regular;
+	font-weight: normal;
+	font-style: normal;
+}
+.AauxNext-Medium {
+	font-family: AauxNext-Medium;
+	font-weight: normal;
+	font-style: normal;
+}
+.AauxNext-Light {
+	font-family: AauxNext-Light;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.titleU { width: 125px; height: 4px; margin: 16px auto; }
+.titleUdark { background-color: #000000; }
+.titleUlight { background-color: #ffffff; }
+
+.hero { background-image: url("../img/herobg.jpg"); background-repeat: no-repeat; background-position: center center; min-height: 770px; }
+	.hero h1 {}
+	.hero h2 {}
+	.hero a { background-color: #c8152b; color: #ffffff; display: inline-block; }
+
+.experience {  }
+	.experience h3,
+	.experience .experience-subtext { text-transform: uppercase; }
+	.experience img { width: 100%; }
+
+
+.packages, .aboutus { background-color: #f2f2f2; color: #000000; }
+	.packages h1 { text-transform: uppercase; }
+	.packages h2 { text-transform: uppercase; }
+	.packages p { clear: both; }
+
+
+.draft {}
+	.draft h1 { text-transform: uppercase; }
+
+.copyright { margin: 100px 0 30px 0; }
+	.copyright p { color: #8e8e8e;}
+
+
+// Button styles
+
+.btn-red {
+	font-family: 'EndzoneSans-Medium';
+	background-color: $OLEred;
+	border-radius: 0;
+	font-size: 16px;
+	letter-spacing: .24em;
+	padding: 13px 44px;
+	text-transform: uppercase;
+
+	a {
+		&:active,
+		&:hover,
+		&:focus {
+			border: none;
+			color: $OLEwhite;
+		}
+
+	}
+
+}
+
+// Navbar styles
+
+.navbar-default .navbar-nav>li>a { //bootstrap default override
+	color: $OLEwhite;
+
+	&:hover {
+		color: inherit;
+	}
+}
+
+.navbar {
+	background: $OLEblack;
+	border: none;
+	margin: 24px 0;
+
+	li a {
+		padding: 15px 30px;
+		letter-spacing: .24em;
+	}
+
+}
+
+// Hero styles
+
+.hero {
+
+	&--content {
+		&--wrapper {
+			margin: 200px 0;
+		}
+	}
+
+	&--header {
+		letter-spacing: .16em;
+
+		&--main {
+			font-family: 'EndzoneSans-Bold';
+			font-size: 30px;
+
+		}
+
+		&--sub {
+			font-size: 20px;
+			font-family: 'EndzoneSans-Medium';
+			line-height: 60px;
+
+
+		}
+
+
+	}
+
+	.btn-cta {
+		margin: 40px 0;
+
+	}
+
+
+}

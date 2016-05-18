@@ -1,0 +1,37 @@
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/312318");
+
+
+//AauxNext
+@font-face {
+	font-family: 'AauxNext-Regular';src: url('fonts/312318_0_0.eot');
+	src: url('fonts/312318_0_0.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/312318_0_0.woff2') format('woff2'),url('fonts/312318_0_0.woff') format('woff'),
+		 url('fonts/312318_0_0.ttf') format('truetype');
+	}
+
+
+@font-face {
+	font-family: 'AauxNext-Medium';
+	src: url('fonts/312318_1_0.eot');
+	src: url('fonts/312318_1_0.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/312318_1_0.woff2') format('woff2'),
+		 url('fonts/312318_1_0.woff') format('woff'),
+		 url('fonts/312318_1_0.ttf') format('truetype');
+}
+
+
+@font-face {font-family: 'AauxNext-Light';src: url('fonts/312318_2_0.eot');src: url('fonts/312318_2_0.eot?#iefix') format('embedded-opentype'),url('fonts/312318_2_0.woff2') format('woff2'),url('fonts/312318_2_0.woff') format('woff'),url('fonts/312318_2_0.ttf') format('truetype');}
+
+
+//Endzone
+
+@font-face {
+	font-family: 'EndzoneSans-Bold';
+	src: url('../fonts/EndzoneSans-Bold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'EndzoneSans-Medium';
+	src: url('../fonts/EndzoneSans-Medium.otf') format('opentype');
+}
