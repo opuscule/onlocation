@@ -1,10 +1,61 @@
 body { background-color: #101010; color: #ffffff; }
 .container-fluid { width: 100%; max-width: 1362px; }
 
+.AauxNext-Regular { 
+	font-family: AauxNext-Regular;
+	font-weight: normal;
+	font-style: normal;
+}
+.AauxNext-Medium { 
+	font-family: AauxNext-Medium;
+	font-weight: normal;
+	font-style: normal;
+}
+.AauxNext-Light { 
+	font-family: AauxNext-Light;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.titleU { width: 125px; height: 4px; margin: 16px auto; }
+.titleUdark { background-color: #000000; }
+.titleUlight { background-color: #ffffff; }
+
 .hero { background-image: url("img/herobg.jpg"); background-repeat: no-repeat; background-position: center center; height: 770px; }
 	.hero h1 {}
 	.hero h2 {}
 	.hero a { background-color: #c8152b; color: #ffffff; display: inline-block; padding: 24px 59px; }	
 
 .experience {  }
+	.experience h3, 
 	.experience .experience-subtext { text-transform: uppercase; }
+	.experience img { width: 100%; }
+	
+
+.packages, .aboutus { background-color: #f2f2f2; color: #000000; }
+	.packages h1 { text-transform: uppercase; }
+	.packages h2 { text-transform: uppercase; }
+	.packages p { clear: both; }
+	
+
+.draft {}
+	.draft h1 { text-transform: uppercase; }
+
+.copyright { margin: 100px 0 30px 0; }
+	.copyright p { color: #8e8e8e;}
+	
+	
+	
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/312318");
+
+  
+@font-face {font-family: 'AauxNext-Regular';src: url('fonts/312318_0_0.eot');src: url('fonts/312318_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/312318_0_0.woff2') format('woff2'),url('fonts/312318_0_0.woff') format('woff'),url('fonts/312318_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AauxNext-Medium';src: url('fonts/312318_1_0.eot');src: url('fonts/312318_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/312318_1_0.woff2') format('woff2'),url('fonts/312318_1_0.woff') format('woff'),url('fonts/312318_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AauxNext-Light';src: url('fonts/312318_2_0.eot');src: url('fonts/312318_2_0.eot?#iefix') format('embedded-opentype'),url('fonts/312318_2_0.woff2') format('woff2'),url('fonts/312318_2_0.woff') format('woff'),url('fonts/312318_2_0.ttf') format('truetype');}
+ 
