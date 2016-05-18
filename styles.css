@@ -1,0 +1,10 @@
+body { background-color: #101010; color: #ffffff; }
+.container-fluid { width: 100%; max-width: 1362px; }
+
+.hero { background-image: url("img/herobg.jpg"); background-repeat: no-repeat; background-position: center center; height: 770px; }
+	.hero h1 {}
+	.hero h2 {}
+	.hero a { background-color: #c8152b; color: #ffffff; display: inline-block; padding: 24px 59px; }	
+
+.experience {  }
+	.experience .experience-subtext { text-transform: uppercase; }
