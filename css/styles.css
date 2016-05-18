@@ -1,73 +1,312 @@
-/*
-Error: Undefined variable: "$OLEred".
-        on line 63 of /Applications/MAMP/htdocs/On Location/sass/styles.scss
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 11, ../sass/styles.scss */
+body {
+  background-color: #101010;
+  color: #ffffff;
+  letter-spacing: .03em;
+}
 
-58: 
-59: // Button styles
-60: 
-61: .btn-red {
-62: 	font-family: 'EndzoneSans-Medium';
-63: 	background-color: $OLEred;
-64: 	border-radius: 0;
-65: 	font-size: 16px;
-66: 	letter-spacing: .24em;
-67: 	padding: 13px 44px;
-68: 	text-transform: uppercase;
+/* line 16, ../sass/styles.scss */
+.container-fluid {
+  width: 100%;
+  max-width: 1362px;
+}
 
-Backtrace:
-/Applications/MAMP/htdocs/On Location/sass/styles.scss:63
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/script/tree/node.rb:50:in `perform'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:52:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/tree/root_node.rb:20:in `render'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/engine.rb:268:in `render'
-/Library/Ruby/Gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
-/Library/Ruby/Gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
-/Library/Ruby/Gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/vendor/listen/lib/listen/adapter.rb:254:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.12/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$OLEred\".\A         on line 63 of /Applications/MAMP/htdocs/On Location/sass/styles.scss\A \A 58: \A 59: // Button styles\A 60: \A 61: .btn-red {\A 62: 	font-family: 'EndzoneSans-Medium';\A 63: 	background-color: $OLEred;\A 64: 	border-radius: 0;\A 65: 	font-size: 16px;\A 66: 	letter-spacing: .24em;\A 67: 	padding: 13px 44px;\A 68: 	text-transform: uppercase;"; }
+/* line 18, ../sass/styles.scss */
+.AauxNext-Regular {
+  font-family: AauxNext-Regular;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 23, ../sass/styles.scss */
+.AauxNext-Medium {
+  font-family: AauxNext-Medium;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 28, ../sass/styles.scss */
+.AauxNext-Light {
+  font-family: AauxNext-Light;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 34, ../sass/styles.scss */
+.titleU {
+  width: 120px;
+  height: 3px;
+  margin: 16px auto;
+}
+
+/* line 40, ../sass/styles.scss */
+.titleUdark {
+  background-color: #000000;
+}
+
+/* line 44, ../sass/styles.scss */
+.titleUlight {
+  background-color: #ffffff;
+}
+
+/* line 48, ../sass/styles.scss */
+.hero {
+  background-image: url("../img/herobg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 770px;
+}
+
+/* line 51, ../sass/styles.scss */
+.hero a {
+  background-color: #c8152b;
+  color: #ffffff;
+  display: inline-block;
+}
+
+/* line 54, ../sass/styles.scss */
+.experience h3,
+.experience .experience-subtext {
+  text-transform: uppercase;
+}
+
+/* line 56, ../sass/styles.scss */
+.experience img {
+  width: 100%;
+}
+
+/* line 59, ../sass/styles.scss */
+.packages, .aboutus {
+  background-color: #f2f2f2;
+  color: #000000;
+}
+
+/* line 60, ../sass/styles.scss */
+.packages h1 {
+  text-transform: uppercase;
+}
+
+/* line 61, ../sass/styles.scss */
+.packages h2 {
+  text-transform: uppercase;
+}
+
+/* line 62, ../sass/styles.scss */
+.packages p {
+  clear: both;
+}
+
+/* line 65, ../sass/styles.scss */
+.navbar-toggle {
+  border: none;
+}
+/* line 68, ../sass/styles.scss */
+.navbar-toggle:hover {
+  background-color: transparent;
+}
+/* line 72, ../sass/styles.scss */
+.navbar-toggle .icon-bar {
+  margin: 6px 0;
+  width: 25px;
+}
+
+/* line 80, ../sass/styles.scss */
+.width--75 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+}
+
+/* line 89, ../sass/styles.scss */
+.btn-red {
+  font-family: 'EndzoneSans-Medium';
+  background-color: #c91529;
+  border-radius: 0;
+  font-size: 16px;
+  letter-spacing: .24em;
+  padding: 13px 44px;
+  text-transform: uppercase;
+}
+/* line 99, ../sass/styles.scss */
+.btn-red a:active, .btn-red a:hover, .btn-red a:focus {
+  border: none;
+  color: #ebebeb;
+}
+
+/* line 112, ../sass/styles.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #ebebeb;
+}
+/* line 115, ../sass/styles.scss */
+.navbar-default .navbar-nav > li > a:hover {
+  color: inherit;
+}
+
+/* line 120, ../sass/styles.scss */
+.navbar {
+  background: #101011;
+  border: none;
+  margin: 24px 0;
+}
+/* line 125, ../sass/styles.scss */
+.navbar li a {
+  padding: 15px 30px;
+  letter-spacing: .24em;
+}
+
+/* line 137, ../sass/styles.scss */
+.hero--content--wrapper {
+  margin: 200px 0;
+}
+/* line 142, ../sass/styles.scss */
+.hero--header {
+  letter-spacing: .16em;
+}
+/* line 145, ../sass/styles.scss */
+.hero--header--main {
+  font-family: 'EndzoneSans-Bold';
+  font-size: 30px;
+}
+/* line 151, ../sass/styles.scss */
+.hero--header--sub {
+  font-size: 20px;
+  font-family: 'EndzoneSans-Medium';
+  line-height: 60px;
+}
+/* line 158, ../sass/styles.scss */
+.hero .btn-cta {
+  margin: 40px 0;
+}
+
+/* line 167, ../sass/styles.scss */
+.experience {
+  color: #ebebeb;
+  margin: 60px auto 130px auto;
+  max-width: 75%;
+}
+/* line 178, ../sass/styles.scss */
+.experience--paragraph {
+  font-size: 18px;
+  line-height: 32px;
+  margin: 40px 0;
+}
+/* line 184, ../sass/styles.scss */
+.experience-subtext {
+  font-family: 'EndzoneSans-Medium';
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: .05em;
+  line-height: 40px;
+  margin-bottom: 80px;
+}
+/* line 195, ../sass/styles.scss */
+.experience--item--wrapper h2 {
+  font-family: 'EndzoneSans-Medium';
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: .24em;
+}
+/* line 202, ../sass/styles.scss */
+.experience--item--wrapper p {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+/* line 211, ../sass/styles.scss */
+.packages {
+  padding: 60px 0;
+}
+/* line 214, ../sass/styles.scss */
+.packages--header {
+  font-family: 'EndzoneSans-Medium';
+  font-size: 21px;
+  letter-spacing: .14em;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+/* line 222, ../sass/styles.scss */
+.packages--subhead {
+  font-family: 'EndzoneSans-Medium';
+  font-size: 18px;
+  letter-spacing: .05em;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+/* line 230, ../sass/styles.scss */
+.packages--specialists {
+  margin: 40px auto;
+  max-width: 75%;
+}
+/* line 235, ../sass/styles.scss */
+.packages--list {
+  padding-left: 16px;
+}
+/* line 238, ../sass/styles.scss */
+.packages--list li {
+  font-family: 'AauxNext-Medium';
+  margin: 10px 0;
+}
+
+/* line 254, ../sass/styles.scss */
+.draft {
+  margin: 80px 0;
+}
+/* line 257, ../sass/styles.scss */
+.draft h1 {
+  text-transform: uppercase;
+}
+/* line 261, ../sass/styles.scss */
+.draft--header {
+  font-family: 'EndzoneSans-Medium';
+  font-size: 21px;
+  letter-spacing: .14em;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+/* line 269, ../sass/styles.scss */
+.draft--vidframe {
+  margin: 60px 0;
+}
+
+/* line 276, ../sass/styles.scss */
+.aboutus {
+  padding: 60px 0 0;
+}
+/* line 279, ../sass/styles.scss */
+.aboutus h1 {
+  letter-spacing: .24em;
+  text-transform: uppercase;
+}
+/* line 284, ../sass/styles.scss */
+.aboutus p {
+  color: #171717;
+  font-family: AauxNext-Medium;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 32px;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 296, ../sass/styles.scss */
+.aboutus .copyright {
+  margin: 100px 0 30px 0;
+}
+/* line 299, ../sass/styles.scss */
+.aboutus .copyright p, .aboutus .copyright a {
+  font-size: 11px;
+  color: #8e8e8e;
+}
+/* line 304, ../sass/styles.scss */
+.aboutus .copyright a {
+  text-decoration: underline;
+}
+/* line 309, ../sass/styles.scss */
+.aboutus--paragraphs--wrapper {
+  margin-top: 40px;
+}

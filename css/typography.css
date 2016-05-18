@@ -3,17 +3,17 @@
 @font-face {
   font-family: 'AauxNext-Regular';
   src: url("fonts/312318_0_0.eot");
-  src: url("fonts/312318_0_0.eot?#iefix") format("embedded-opentype"), url("fonts/312318_0_0.woff2") format("woff2"), url("fonts/312318_0_0.woff") format("woff"), url("fonts/312318_0_0.ttf") format("truetype");
+  src: url("../fonts/312318_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/312318_0_0.woff2") format("woff2"), url("../fonts/312318_0_0.woff") format("woff"), url("../fonts/312318_0_0.ttf") format("truetype");
 }
 @font-face {
   font-family: 'AauxNext-Medium';
-  src: url("fonts/312318_1_0.eot");
-  src: url("fonts/312318_1_0.eot?#iefix") format("embedded-opentype"), url("fonts/312318_1_0.woff2") format("woff2"), url("fonts/312318_1_0.woff") format("woff"), url("fonts/312318_1_0.ttf") format("truetype");
+  src: url("../fonts/312318_1_0.eot");
+  src: url("../fonts/312318_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/312318_1_0.woff2") format("woff2"), url("../fonts/312318_1_0.woff") format("woff"), url("../fonts/312318_1_0.ttf") format("truetype");
 }
 @font-face {
   font-family: 'AauxNext-Light';
-  src: url("fonts/312318_2_0.eot");
-  src: url("fonts/312318_2_0.eot?#iefix") format("embedded-opentype"), url("fonts/312318_2_0.woff2") format("woff2"), url("fonts/312318_2_0.woff") format("woff"), url("fonts/312318_2_0.ttf") format("truetype");
+  src: url("../fonts/312318_2_0.eot");
+  src: url("../fonts/312318_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/312318_2_0.woff2") format("woff2"), url("../fonts/312318_2_0.woff") format("woff"), url("../fonts/312318_2_0.ttf") format("truetype");
 }
 @font-face {
   font-family: 'EndzoneSans-Bold';

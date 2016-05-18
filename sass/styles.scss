@@ -3,7 +3,10 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-// @import "compass/reset";
+
+@import "vars";
+
+//globals
 
 body {
 	background-color: #101010;
@@ -28,9 +31,19 @@ body {
 	font-style: normal;
 }
 
-.titleU { width: 125px; height: 4px; margin: 16px auto; }
-.titleUdark { background-color: #000000; }
-.titleUlight { background-color: #ffffff; }
+.titleU {
+	width: 120px;
+	height: 3px;
+	margin: 16px auto;
+}
+
+.titleUdark {
+	background-color: #000000;
+}
+
+.titleUlight {
+	background-color: #ffffff;
+}
 
 .hero { background-image: url("../img/herobg.jpg"); background-repeat: no-repeat; background-position: center center; min-height: 770px; }
 	.hero h1 {}
@@ -49,11 +62,26 @@ body {
 	.packages p { clear: both; }
 
 
-.draft {}
-	.draft h1 { text-transform: uppercase; }
+.navbar-toggle {
+	border: none;
 
-.copyright { margin: 100px 0 30px 0; }
-	.copyright p { color: #8e8e8e;}
+	&:hover {
+		background-color: transparent;
+	}
+
+	.icon-bar {
+		margin: 6px 0;
+		width: 25px;
+
+	}
+
+}
+
+.width--75 {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 75%;
+}
 
 
 // Button styles
@@ -124,17 +152,161 @@ body {
 			font-size: 20px;
 			font-family: 'EndzoneSans-Medium';
 			line-height: 60px;
-
-
 		}
-
-
 	}
 
 	.btn-cta {
 		margin: 40px 0;
 
 	}
+}
 
 
+// Experience section styles
+
+.experience {
+	color: $OLEwhite;
+	margin: 60px auto 130px auto;
+	max-width: 75%;
+
+
+	&--header {
+
+
+	}
+
+	&--paragraph {
+		font-size: 18px;
+		line-height: 32px;
+		margin: 40px 0;
+	}
+
+	&-subtext {
+		font-family: 'EndzoneSans-Medium';
+		text-transform: uppercase;
+		font-size: 20px;
+		letter-spacing: .05em;
+		line-height: 40px;
+		margin-bottom: 80px;
+
+	}
+
+	&--item--wrapper {
+		h2 {
+			font-family: 'EndzoneSans-Medium';
+			text-transform: uppercase;
+			font-size: 20px;
+			letter-spacing: .24em;
+		}
+
+		 p {
+			font-size: 16px;
+			line-height: 32px;
+		 }
+	}
+}
+
+// Packages section styles
+
+.packages {
+	padding: 60px 0;
+
+	&--header {
+		font-family: 'EndzoneSans-Medium';
+		font-size: 21px;
+		letter-spacing: .14em;
+		line-height: 38px;
+		text-transform: uppercase;
+	}
+
+	&--subhead {
+		font-family: 'EndzoneSans-Medium';
+		font-size: 18px;
+		letter-spacing: .05em;
+		line-height: 24px;
+		text-transform: uppercase;
+	}
+
+	&--specialists {
+		margin: 40px auto;
+		max-width: 75%;
+	}
+
+	&--list {
+		padding-left: 16px;
+
+		li {
+			font-family: 'AauxNext-Medium';
+			margin: 10px 0;
+
+			strong {
+
+			}
+
+		}
+
+	}
+
+}
+
+// Draft section styles
+
+.draft {
+	margin: 80px 0;
+
+	h1 {
+		text-transform: uppercase;
+	}
+
+	&--header {
+		font-family: 'EndzoneSans-Medium';
+		font-size: 21px;
+		letter-spacing: .14em;
+		line-height: 38px;
+		text-transform: uppercase;
+	}
+
+	&--vidframe {
+		margin: 60px 0;
+	}
+}
+
+// About us section styles
+
+.aboutus {
+	padding: 60px 0 0;
+
+	h1 {
+		letter-spacing: .24em;
+		text-transform: uppercase;
+	}
+
+	p {
+		color: #171717;
+		font-family: AauxNext-Medium;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 16px;
+		line-height: 32px;
+		max-width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.copyright {
+		margin: 100px 0 30px 0;
+
+		p, a {
+			font-size: 11px;
+			color: #8e8e8e;
+		}
+
+		a {
+			text-decoration: underline;
+		}
+	}
+
+	&--paragraphs--wrapper {
+		margin-top: 40px;
+	}
 }
