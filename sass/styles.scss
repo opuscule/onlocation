@@ -48,7 +48,8 @@ body {
 .experience {  }
 	.experience h3,
 	.experience .experience-subtext { text-transform: uppercase; }
-	.experience img { width: 100%; }
+	// .experience
+	.experience--item--wrapper img { width: 100%; }
 
 
 .packages, .aboutus { background-color: #f2f2f2; color: #000000; }
@@ -60,14 +61,20 @@ body {
 .navbar-toggle {
 	border: none;
 
-	&:hover {
-		background-color: transparent;
+	&:hover, &:focus, &:active {
+		background-color: transparent !important;
 	}
 
 	.icon-bar {
 		margin: 6px 0;
 		width: 25px;
 
+	}
+}
+
+.navbar-brand {
+	@media all and (max-width: $break-mob) {
+		display: none !important;
 	}
 }
 
@@ -101,7 +108,8 @@ body {
 
 // Logo global
 .logo--panel {
-	max-width: 380px;
+	width: 380px;
+	max-width: 100%;
 }
 
 // Navbar styles
@@ -207,6 +215,10 @@ body {
 	&--content--wrapper {
 		margin: 50px auto 100px auto;
 		max-width: 70%;
+
+		@media all and (max-width: $break-tab) {
+			max-width: 90%;
+		}
 	}
 
 	&--logo {
@@ -259,6 +271,11 @@ body {
 		letter-spacing: .14em;
 		line-height: 38px;
 		text-transform: uppercase;
+
+		@media all and (max-width: $break-mob) {
+			font-size: 16px;
+			line-height: 24px;
+		}
 	}
 
 	&--subhead {
@@ -272,6 +289,10 @@ body {
 	&--specialists {
 		margin: 40px auto;
 		max-width: 75%;
+
+		@media all and (max-width: $break-tab) {
+			max-width: 90%;
+		}
 	}
 
 	&--img {
@@ -344,12 +365,31 @@ body {
 			margin: auto;
 			max-width: 70%; //needs to match video width
 			text-transform: uppercase;
+
+
+			@media all and (max-width: $break-mob) {
+				width: 100%;
+				max-width: none;
+			}
+			// @media all and (max-width: $break-mob) {
+			// 	margin-left: 15%; //visually adjust for quote
+
+			// }
 		}
 
 		&--text--wrapper {
 			margin: auto;
 			max-width: 90%;
 			position: relative;
+
+			@media all and (max-width: $break-tab) {
+				width: 100%;
+
+			}
+
+			@media all and (max-width: $break-mob) {
+				margin-left: 55px;
+			}
 		}
 
 		&--attribution {
@@ -398,6 +438,10 @@ body {
 		max-width: 75%;
 		margin-left: auto;
 		margin-right: auto;
+
+		@media all and (max-width: $break-mob) {
+			max-width: 90%;
+		}
 	}
 
 	.copyright {
