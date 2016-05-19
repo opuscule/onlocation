@@ -78,75 +78,53 @@ body {
   background-color: #ffffff;
 }
 
-/* line 48, ../sass/styles.scss */
-.hero {
-  background-image: url("../img/herobg.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  min-height: 770px;
-}
-
-/* line 51, ../sass/styles.scss */
-.hero a {
-  background-color: #c8152b;
-  color: #ffffff;
-  display: inline-block;
-}
-
-/* line 54, ../sass/styles.scss */
+/* line 49, ../sass/styles.scss */
 .experience h3,
 .experience .experience-subtext {
   text-transform: uppercase;
 }
 
-/* line 56, ../sass/styles.scss */
+/* line 51, ../sass/styles.scss */
 .experience img {
   width: 100%;
 }
 
-/* line 59, ../sass/styles.scss */
+/* line 54, ../sass/styles.scss */
 .packages, .aboutus {
   background-color: #f2f2f2;
   color: #000000;
 }
 
-/* line 60, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
 .packages h1 {
   text-transform: uppercase;
 }
 
-/* line 61, ../sass/styles.scss */
+/* line 56, ../sass/styles.scss */
 .packages h2 {
   text-transform: uppercase;
 }
 
-/* line 62, ../sass/styles.scss */
+/* line 57, ../sass/styles.scss */
 .packages p {
   clear: both;
 }
 
-/* line 65, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 .navbar-toggle {
   border: none;
 }
-/* line 68, ../sass/styles.scss */
+/* line 63, ../sass/styles.scss */
 .navbar-toggle:hover {
   background-color: transparent;
 }
-/* line 72, ../sass/styles.scss */
+/* line 67, ../sass/styles.scss */
 .navbar-toggle .icon-bar {
   margin: 6px 0;
   width: 25px;
 }
 
-/* line 80, ../sass/styles.scss */
-.width--75 {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 75%;
-}
-
-/* line 89, ../sass/styles.scss */
+/* line 77, ../sass/styles.scss */
 .btn-red {
   font-family: 'EndzoneSans-Medium';
   background-color: #c91529;
@@ -156,96 +134,150 @@ body {
   padding: 13px 44px;
   text-transform: uppercase;
 }
-/* line 99, ../sass/styles.scss */
+/* line 86, ../sass/styles.scss */
+.btn-red a {
+  color: #ebebeb;
+}
+/* line 88, ../sass/styles.scss */
 .btn-red a:active, .btn-red a:hover, .btn-red a:focus {
   border: none;
   color: #ebebeb;
 }
 
-/* line 112, ../sass/styles.scss */
+/* line 98, ../sass/styles.scss */
+.btn.focus, .btn:focus, .btn:hover {
+  color: #ebebeb;
+}
+
+/* line 103, ../sass/styles.scss */
+.logo--panel {
+  max-width: 380px;
+}
+
+/* line 109, ../sass/styles.scss */
 .navbar-default .navbar-nav > li > a {
   color: #ebebeb;
 }
-/* line 115, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 .navbar-default .navbar-nav > li > a:hover {
   color: inherit;
 }
 
-/* line 120, ../sass/styles.scss */
+/* line 117, ../sass/styles.scss */
 .navbar {
   background: #101011;
   border: none;
   margin: 24px 0;
 }
-/* line 125, ../sass/styles.scss */
+/* line 122, ../sass/styles.scss */
 .navbar li a {
+  color: #ebebeb;
+  font-family: 'EndzoneSans-Medium';
   padding: 15px 30px;
   letter-spacing: .24em;
 }
-
-/* line 137, ../sass/styles.scss */
-.hero--content--wrapper {
-  margin: 200px 0;
+/* line 132, ../sass/styles.scss */
+.navbar li a:focus {
+  color: #ebebeb;
+  outline: none;
+  border: none;
+}
+/* line 139, ../sass/styles.scss */
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 /* line 142, ../sass/styles.scss */
+.navbar-brand img {
+  max-height: 100%;
+  width: auto;
+}
+
+/* line 152, ../sass/styles.scss */
+.hero {
+  background-image: url("../img/hero.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  max-height: 770px;
+  background-size: cover;
+}
+/* line 159, ../sass/styles.scss */
+.hero a {
+  background-color: #c8152b;
+  color: #ebebeb;
+  display: inline-block;
+}
+/* line 165, ../sass/styles.scss */
+.hero--logo {
+  margin-bottom: 24px;
+  max-width: 200px;
+}
+/* line 171, ../sass/styles.scss */
+.hero--content--wrapper {
+  margin: 100px 0 50px;
+}
+/* line 176, ../sass/styles.scss */
 .hero--header {
   letter-spacing: .16em;
 }
-/* line 145, ../sass/styles.scss */
+/* line 179, ../sass/styles.scss */
 .hero--header--main {
   font-family: 'EndzoneSans-Bold';
   font-size: 30px;
+  line-height: 40px;
 }
-/* line 151, ../sass/styles.scss */
+/* line 186, ../sass/styles.scss */
 .hero--header--sub {
   font-size: 20px;
   font-family: 'EndzoneSans-Medium';
-  line-height: 60px;
+  line-height: 32px;
+  margin-top: 24px;
 }
-/* line 158, ../sass/styles.scss */
+/* line 194, ../sass/styles.scss */
 .hero .btn-cta {
   margin: 40px 0;
 }
 
-/* line 167, ../sass/styles.scss */
+/* line 207, ../sass/styles.scss */
 .experience {
   color: #ebebeb;
-  margin: 60px auto 130px auto;
-  max-width: 75%;
+  margin: 20px auto 130px auto;
+  max-width: 70%;
 }
-/* line 178, ../sass/styles.scss */
+/* line 218, ../sass/styles.scss */
 .experience--paragraph {
   font-size: 18px;
   line-height: 32px;
   margin: 40px 0;
 }
-/* line 184, ../sass/styles.scss */
+/* line 224, ../sass/styles.scss */
 .experience-subtext {
   font-family: 'EndzoneSans-Medium';
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 23px;
   letter-spacing: .05em;
   line-height: 40px;
   margin-bottom: 80px;
 }
-/* line 195, ../sass/styles.scss */
+/* line 235, ../sass/styles.scss */
 .experience--item--wrapper h2 {
   font-family: 'EndzoneSans-Medium';
   text-transform: uppercase;
   font-size: 20px;
   letter-spacing: .24em;
 }
-/* line 202, ../sass/styles.scss */
+/* line 242, ../sass/styles.scss */
 .experience--item--wrapper p {
   font-size: 16px;
   line-height: 32px;
 }
 
-/* line 211, ../sass/styles.scss */
+/* line 251, ../sass/styles.scss */
 .packages {
   padding: 60px 0;
+  background: url("../img/panel2_texture.jpg");
 }
-/* line 214, ../sass/styles.scss */
+/* line 255, ../sass/styles.scss */
 .packages--header {
   font-family: 'EndzoneSans-Medium';
   font-size: 21px;
@@ -253,7 +285,7 @@ body {
   line-height: 38px;
   text-transform: uppercase;
 }
-/* line 222, ../sass/styles.scss */
+/* line 263, ../sass/styles.scss */
 .packages--subhead {
   font-family: 'EndzoneSans-Medium';
   font-size: 18px;
@@ -261,30 +293,51 @@ body {
   line-height: 24px;
   text-transform: uppercase;
 }
-/* line 230, ../sass/styles.scss */
+/* line 271, ../sass/styles.scss */
 .packages--specialists {
   margin: 40px auto;
   max-width: 75%;
 }
-/* line 235, ../sass/styles.scss */
+/* line 276, ../sass/styles.scss */
+.packages--img {
+  display: block;
+  margin: 0 auto 20px auto;
+  max-width: 80%;
+}
+/* line 282, ../sass/styles.scss */
+.packages--img--caption {
+  color: #c91529;
+  font-family: 'EndzoneSans-Medium';
+  font-size: 16px;
+  text-transform: uppercase;
+}
+/* line 290, ../sass/styles.scss */
 .packages--list {
   padding-left: 16px;
+  font-size: 18px;
+  margin-top: 14px;
 }
-/* line 238, ../sass/styles.scss */
+/* line 296, ../sass/styles.scss */
 .packages--list li {
   font-family: 'AauxNext-Medium';
   margin: 10px 0;
 }
+/* line 310, ../sass/styles.scss */
+.packages--form--subtext {
+  color: #101011;
+  margin-top: 20px;
+  font-size: 15px;
+}
 
-/* line 254, ../sass/styles.scss */
+/* line 320, ../sass/styles.scss */
 .draft {
   margin: 80px 0;
 }
-/* line 257, ../sass/styles.scss */
+/* line 323, ../sass/styles.scss */
 .draft h1 {
   text-transform: uppercase;
 }
-/* line 261, ../sass/styles.scss */
+/* line 327, ../sass/styles.scss */
 .draft--header {
   font-family: 'EndzoneSans-Medium';
   font-size: 21px;
@@ -292,44 +345,45 @@ body {
   line-height: 38px;
   text-transform: uppercase;
 }
-/* line 269, ../sass/styles.scss */
+/* line 335, ../sass/styles.scss */
 .draft--vidframe {
   margin: 60px 0;
 }
-/* line 274, ../sass/styles.scss */
+/* line 340, ../sass/styles.scss */
 .draft--quotes--row {
   text-transform: uppercase;
   max-width: 70%;
   margin: auto;
 }
-/* line 280, ../sass/styles.scss */
+/* line 346, ../sass/styles.scss */
 .draft--quotes--text--wrapper {
   max-width: 90%;
   margin: auto;
 }
-/* line 285, ../sass/styles.scss */
+/* line 351, ../sass/styles.scss */
 .draft--quotes--attribution {
   font-weight: bold;
   letter-spacing: .14em;
   font-size: 14px;
 }
-/* line 291, ../sass/styles.scss */
+/* line 357, ../sass/styles.scss */
 .draft--quotes--quotetext {
   letter-spacing: .08em;
   font-size: 14px;
   line-height: 28px;
 }
 
-/* line 302, ../sass/styles.scss */
+/* line 368, ../sass/styles.scss */
 .aboutus {
   padding: 60px 0 0;
 }
-/* line 305, ../sass/styles.scss */
+/* line 371, ../sass/styles.scss */
 .aboutus h1 {
+  font-family: 'EndzoneSans-Medium';
   letter-spacing: .24em;
   text-transform: uppercase;
 }
-/* line 310, ../sass/styles.scss */
+/* line 377, ../sass/styles.scss */
 .aboutus p {
   color: #171717;
   font-family: AauxNext-Medium;
@@ -341,20 +395,24 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 322, ../sass/styles.scss */
+/* line 389, ../sass/styles.scss */
 .aboutus .copyright {
   margin: 100px 0 30px 0;
 }
-/* line 325, ../sass/styles.scss */
+/* line 392, ../sass/styles.scss */
 .aboutus .copyright p, .aboutus .copyright a {
   font-size: 11px;
   color: #8e8e8e;
 }
-/* line 330, ../sass/styles.scss */
+/* line 397, ../sass/styles.scss */
 .aboutus .copyright a {
   text-decoration: underline;
 }
-/* line 335, ../sass/styles.scss */
+/* line 402, ../sass/styles.scss */
+.aboutus--logo {
+  margin-bottom: 20px;
+}
+/* line 406, ../sass/styles.scss */
 .aboutus--paragraphs--wrapper {
   margin-top: 40px;
 }
