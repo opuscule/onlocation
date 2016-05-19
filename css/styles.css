@@ -216,7 +216,7 @@ body {
 /* line 203, ../sass/styles.scss */
 .experience {
   color: #ebebeb;
-  background: url("..img/panel3_texture.jpg");
+  background: url("../img/panel3_texture.jpg");
 }
 /* line 207, ../sass/styles.scss */
 .experience--content--wrapper {
@@ -297,28 +297,30 @@ body {
   padding-left: 16px;
   font-size: 18px;
   margin-top: 14px;
+  list-style-image: url("../img/bullet-disc.png");
 }
 /* line 297, ../sass/styles.scss */
 .packages--list li {
   font-family: 'AauxNext-Medium';
   margin: 10px 0;
+  padding-left: 20px;
 }
-/* line 311, ../sass/styles.scss */
+/* line 312, ../sass/styles.scss */
 .packages--form--subtext {
   color: #101011;
   margin-top: 20px;
   font-size: 15px;
 }
 
-/* line 321, ../sass/styles.scss */
+/* line 322, ../sass/styles.scss */
 .draft {
   margin: 80px 0;
 }
-/* line 324, ../sass/styles.scss */
+/* line 325, ../sass/styles.scss */
 .draft h1 {
   text-transform: uppercase;
 }
-/* line 328, ../sass/styles.scss */
+/* line 329, ../sass/styles.scss */
 .draft--header {
   font-family: 'EndzoneSans-Medium';
   font-size: 21px;
@@ -326,37 +328,37 @@ body {
   line-height: 38px;
   text-transform: uppercase;
 }
-/* line 336, ../sass/styles.scss */
+/* line 337, ../sass/styles.scss */
 .draft--vidframe {
   margin: 60px 0;
 }
-/* line 342, ../sass/styles.scss */
+/* line 343, ../sass/styles.scss */
 .draft--quotes--row {
   margin: auto;
   max-width: 70%;
   text-transform: uppercase;
 }
-/* line 348, ../sass/styles.scss */
+/* line 349, ../sass/styles.scss */
 .draft--quotes--text--wrapper {
   margin: auto;
   max-width: 90%;
   position: relative;
 }
-/* line 354, ../sass/styles.scss */
+/* line 355, ../sass/styles.scss */
 .draft--quotes--attribution {
   font-family: 'EndzoneSans-Medium';
   font-size: 14px;
   font-weight: bold;
   letter-spacing: .14em;
 }
-/* line 361, ../sass/styles.scss */
+/* line 362, ../sass/styles.scss */
 .draft--quotes--quotetext {
   font-size: 14px;
   font-family: 'AauxNext-Medium';
   letter-spacing: .08em;
   line-height: 28px;
 }
-/* line 368, ../sass/styles.scss */
+/* line 369, ../sass/styles.scss */
 .draft--quotes--quoteimage {
   left: -55px;
   position: absolute;
@@ -364,11 +366,11 @@ body {
   z-index: -1;
 }
 
-/* line 379, ../sass/styles.scss */
+/* line 380, ../sass/styles.scss */
 .aboutus {
   padding: 60px 0 0;
 }
-/* line 382, ../sass/styles.scss */
+/* line 383, ../sass/styles.scss */
 .aboutus h1 {
   font-family: 'EndzoneSans-Medium';
   font-size: 30px;
@@ -376,7 +378,7 @@ body {
   line-height: 38px;
   text-transform: uppercase;
 }
-/* line 390, ../sass/styles.scss */
+/* line 391, ../sass/styles.scss */
 .aboutus p {
   color: #171717;
   font-family: AauxNext-Medium;
@@ -388,24 +390,24 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 402, ../sass/styles.scss */
+/* line 403, ../sass/styles.scss */
 .aboutus .copyright {
   margin: 100px 0 30px 0;
 }
-/* line 405, ../sass/styles.scss */
+/* line 406, ../sass/styles.scss */
 .aboutus .copyright p, .aboutus .copyright a {
   font-size: 11px;
   color: #8e8e8e;
 }
-/* line 410, ../sass/styles.scss */
+/* line 411, ../sass/styles.scss */
 .aboutus .copyright a {
   text-decoration: underline;
 }
-/* line 415, ../sass/styles.scss */
+/* line 416, ../sass/styles.scss */
 .aboutus--logo {
   margin-bottom: 20px;
 }
-/* line 419, ../sass/styles.scss */
+/* line 420, ../sass/styles.scss */
 .aboutus--paragraphs--wrapper {
   margin-top: 40px;
 }

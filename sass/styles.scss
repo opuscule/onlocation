@@ -200,15 +200,14 @@ body {
 
 // Experience section styles
 
-// #experience {
-// 		background: url('../img/panel3_texture.jpg') repeat;
-// }
-
 .experience {
 	color: $OLEwhite;
-	margin: 20px auto 130px auto;
-	max-width: 70%;
+	background: url('../img/panel3_texture.jpg');
 
+	&--content--wrapper {
+		margin: 50px auto 100px auto;
+		max-width: 70%;
+	}
 
 	&--logo {
 
@@ -237,10 +236,12 @@ body {
 			text-transform: uppercase;
 			font-size: 20px;
 			letter-spacing: .24em;
+			margin-top: 22px;
+			margin-bottom: 18px;
 		}
 
 		 p {
-			font-size: 16px;
+			font-size: 18px;
 			line-height: 32px;
 		 }
 	}
@@ -291,11 +292,12 @@ body {
 		padding-left: 16px;
 	    font-size: 18px;
 	    margin-top: 14px;
-
+	    list-style-image: url('../img/bullet-disc.png');
 
 		li {
 			font-family: 'AauxNext-Medium';
 			margin: 10px 0;
+			padding-left: 20px;
 
 			strong {
 
@@ -345,8 +347,6 @@ body {
 		}
 
 		&--text--wrapper {
-			background: url('../img/quote_mark.png') no-repeat;
-			background-position: top 20px left -40px;
 			margin: auto;
 			max-width: 90%;
 			position: relative;
@@ -364,7 +364,13 @@ body {
 			font-family: 'AauxNext-Medium';
 			letter-spacing: .08em;
 			line-height: 28px;
+		}
 
+		&--quoteimage {
+			left: -55px;
+			position: absolute;
+			top: 20px;
+			z-index: -1;
 		}
 	}
 }
