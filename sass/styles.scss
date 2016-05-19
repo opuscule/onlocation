@@ -48,7 +48,6 @@ body {
 .experience {  }
 	.experience h3,
 	.experience .experience-subtext { text-transform: uppercase; }
-	// .experience
 	.experience--item--wrapper img { width: 100%; }
 
 
@@ -57,26 +56,6 @@ body {
 	.packages h2 { text-transform: uppercase; }
 	.packages p { clear: both; }
 
-
-.navbar-toggle {
-	border: none;
-
-	&:hover, &:focus, &:active {
-		background-color: transparent !important;
-	}
-
-	.icon-bar {
-		margin: 6px 0;
-		width: 25px;
-
-	}
-}
-
-.navbar-brand {
-	@media all and (max-width: $break-mob) {
-		display: none !important;
-	}
-}
 
 
 // Button styles
@@ -114,6 +93,26 @@ body {
 
 // Navbar styles
 
+.navbar-toggle {
+	border: none;
+
+	&:hover, &:focus, &:active {
+		background-color: transparent !important;
+	}
+
+	.icon-bar {
+		margin: 6px 0;
+		width: 25px;
+
+	}
+}
+
+.navbar-brand {
+	@media all and (max-width: $break-mob) {
+		display: none !important;
+	}
+}
+
 .navbar-default .navbar-nav>li>a { //bootstrap default override
 	color: $OLEwhite;
 
@@ -132,6 +131,11 @@ body {
 		font-family: 'EndzoneSans-Medium';
 		padding: 15px 30px;
 		letter-spacing: .24em;
+
+		@media all and (min-width: $break-mob) and (max-width: $break-tab) {
+			font-size: 12px;
+			padding: 15px 20px;
+		}
 
 		&:hover {
 
@@ -213,7 +217,8 @@ body {
 	background: url('../img/panel3_texture.jpg');
 
 	&--content--wrapper {
-		margin: 50px auto 100px auto;
+		padding: 50px 0 100px;
+		margin:auto;
 		max-width: 70%;
 
 		@media all and (max-width: $break-tab) {
@@ -256,6 +261,10 @@ body {
 			font-size: 18px;
 			line-height: 32px;
 		 }
+
+		 @media all and (max-width: $break-mob) {
+		 	margin-bottom: 40px;
+		 }
 	}
 }
 
@@ -284,6 +293,10 @@ body {
 		letter-spacing: .05em;
 		line-height: 24px;
 		text-transform: uppercase;
+
+		@media all and (max-width: $break-mob) {
+			text-align: center;
+		}
 	}
 
 	&--specialists {
@@ -291,7 +304,7 @@ body {
 		max-width: 75%;
 
 		@media all and (max-width: $break-tab) {
-			max-width: 90%;
+			max-width: 100%;
 		}
 	}
 
@@ -352,6 +365,7 @@ body {
 		font-size: 21px;
 		letter-spacing: .14em;
 		line-height: 38px;
+		margin-top: 40px;
 		text-transform: uppercase;
 	}
 
@@ -371,10 +385,6 @@ body {
 				width: 100%;
 				max-width: none;
 			}
-			// @media all and (max-width: $break-mob) {
-			// 	margin-left: 15%; //visually adjust for quote
-
-			// }
 		}
 
 		&--text--wrapper {
@@ -384,11 +394,11 @@ body {
 
 			@media all and (max-width: $break-tab) {
 				width: 100%;
-
 			}
 
 			@media all and (max-width: $break-mob) {
 				margin-left: 55px;
+				margin-bottom: 40px;
 			}
 		}
 
@@ -425,6 +435,7 @@ body {
 		font-size: 30px;
 		letter-spacing: .14em;
 		line-height: 38px;
+		margin-top: 0;
 		text-transform: uppercase;
 	}
 
@@ -448,8 +459,9 @@ body {
 		margin: 100px 0 30px 0;
 
 		p, a {
-			font-size: 11px;
 			color: #8e8e8e;
+			font-size: 11px;
+			line-height: 20px;
 		}
 
 		a {
@@ -458,7 +470,7 @@ body {
 	}
 
 	&--logo {
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 	}
 
 	&--paragraphs--wrapper {
