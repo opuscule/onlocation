@@ -343,6 +343,14 @@ body {
 
 	}
 
+	&--form--header {
+		font-family: 'EndzoneSans-Medium';
+		font-size: 18px;
+		letter-spacing: .05em;
+		line-height: 24px;
+		text-transform: uppercase;
+	}
+
 	&--form--subtext {
 		color: $OLEblack;
 		margin-top: 20px;

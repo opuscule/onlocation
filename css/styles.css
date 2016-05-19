@@ -353,21 +353,29 @@ body {
   padding-left: 20px;
 }
 /* line 346, ../sass/styles.scss */
+.packages--form--header {
+  font-family: 'EndzoneSans-Medium';
+  font-size: 18px;
+  letter-spacing: .05em;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+/* line 354, ../sass/styles.scss */
 .packages--form--subtext {
   color: #101011;
   margin-top: 20px;
   font-size: 15px;
 }
 
-/* line 356, ../sass/styles.scss */
+/* line 364, ../sass/styles.scss */
 .draft {
   margin: 80px 0;
 }
-/* line 359, ../sass/styles.scss */
+/* line 367, ../sass/styles.scss */
 .draft h1 {
   text-transform: uppercase;
 }
-/* line 363, ../sass/styles.scss */
+/* line 371, ../sass/styles.scss */
 .draft--header {
   font-family: 'EndzoneSans-Medium';
   font-size: 21px;
@@ -376,57 +384,57 @@ body {
   margin-top: 40px;
   text-transform: uppercase;
 }
-/* line 372, ../sass/styles.scss */
+/* line 380, ../sass/styles.scss */
 .draft--vidframe {
   margin: 60px 0;
 }
-/* line 378, ../sass/styles.scss */
+/* line 386, ../sass/styles.scss */
 .draft--quotes--row {
   margin: auto;
   max-width: 70%;
   text-transform: uppercase;
 }
 @media all and (max-width: 767px) {
-  /* line 378, ../sass/styles.scss */
+  /* line 386, ../sass/styles.scss */
   .draft--quotes--row {
     width: 100%;
     max-width: none;
   }
 }
-/* line 390, ../sass/styles.scss */
+/* line 398, ../sass/styles.scss */
 .draft--quotes--text--wrapper {
   margin: auto;
   max-width: 90%;
   position: relative;
 }
 @media all and (max-width: 1023px) {
-  /* line 390, ../sass/styles.scss */
+  /* line 398, ../sass/styles.scss */
   .draft--quotes--text--wrapper {
     width: 100%;
   }
 }
 @media all and (max-width: 767px) {
-  /* line 390, ../sass/styles.scss */
+  /* line 398, ../sass/styles.scss */
   .draft--quotes--text--wrapper {
     margin-left: 55px;
     margin-bottom: 40px;
   }
 }
-/* line 405, ../sass/styles.scss */
+/* line 413, ../sass/styles.scss */
 .draft--quotes--attribution {
   font-family: 'EndzoneSans-Medium';
   font-size: 14px;
   font-weight: bold;
   letter-spacing: .14em;
 }
-/* line 412, ../sass/styles.scss */
+/* line 420, ../sass/styles.scss */
 .draft--quotes--quotetext {
   font-size: 14px;
   font-family: 'AauxNext-Medium';
   letter-spacing: .08em;
   line-height: 28px;
 }
-/* line 419, ../sass/styles.scss */
+/* line 427, ../sass/styles.scss */
 .draft--quotes--quoteimage {
   left: -55px;
   position: absolute;
@@ -434,11 +442,11 @@ body {
   z-index: -1;
 }
 
-/* line 430, ../sass/styles.scss */
+/* line 438, ../sass/styles.scss */
 .aboutus {
   padding: 60px 0 0;
 }
-/* line 433, ../sass/styles.scss */
+/* line 441, ../sass/styles.scss */
 .aboutus h1 {
   font-family: 'EndzoneSans-Medium';
   font-size: 30px;
@@ -447,7 +455,7 @@ body {
   margin-top: 0;
   text-transform: uppercase;
 }
-/* line 442, ../sass/styles.scss */
+/* line 450, ../sass/styles.scss */
 .aboutus p {
   color: #171717;
   font-family: AauxNext-Medium;
@@ -460,30 +468,30 @@ body {
   margin-right: auto;
 }
 @media all and (max-width: 767px) {
-  /* line 442, ../sass/styles.scss */
+  /* line 450, ../sass/styles.scss */
   .aboutus p {
     max-width: 90%;
   }
 }
-/* line 458, ../sass/styles.scss */
+/* line 466, ../sass/styles.scss */
 .aboutus .copyright {
   margin: 100px 0 30px 0;
 }
-/* line 461, ../sass/styles.scss */
+/* line 469, ../sass/styles.scss */
 .aboutus .copyright p, .aboutus .copyright a {
   color: #8e8e8e;
   font-size: 11px;
   line-height: 20px;
 }
-/* line 467, ../sass/styles.scss */
+/* line 475, ../sass/styles.scss */
 .aboutus .copyright a {
   text-decoration: underline;
 }
-/* line 472, ../sass/styles.scss */
+/* line 480, ../sass/styles.scss */
 .aboutus--logo {
   margin-bottom: 40px;
 }
-/* line 476, ../sass/styles.scss */
+/* line 484, ../sass/styles.scss */
 .aboutus--paragraphs--wrapper {
   margin-top: 40px;
 }
