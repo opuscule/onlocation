@@ -337,26 +337,32 @@ body {
 	}
 
 	&--quotes {
+
 		&--row {
-			text-transform: uppercase;
-			max-width: 70%; //needs to match video width
 			margin: auto;
+			max-width: 70%; //needs to match video width
+			text-transform: uppercase;
 		}
 
 		&--text--wrapper {
-			max-width: 90%;
+			background: url('../img/quote_mark.png') no-repeat;
+			background-position: top 20px left -40px;
 			margin: auto;
+			max-width: 90%;
+			position: relative;
 		}
 
 		&--attribution {
+			font-family: 'EndzoneSans-Medium';
+			font-size: 14px;
 			font-weight: bold;
 			letter-spacing: .14em;
-			font-size: 14px;
 		}
 
 		&--quotetext {
-			letter-spacing: .08em;
 			font-size: 14px;
+			font-family: 'AauxNext-Medium';
+			letter-spacing: .08em;
 			line-height: 28px;
 
 		}
@@ -370,7 +376,9 @@ body {
 
 	h1 {
 		font-family: 'EndzoneSans-Medium';
-		letter-spacing: .24em;
+		font-size: 30px;
+		letter-spacing: .14em;
+		line-height: 38px;
 		text-transform: uppercase;
 	}
 

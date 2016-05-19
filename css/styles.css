@@ -324,41 +324,48 @@ body {
 .draft--vidframe {
   margin: 60px 0;
 }
-/* line 340, ../sass/styles.scss */
+/* line 341, ../sass/styles.scss */
 .draft--quotes--row {
-  text-transform: uppercase;
+  margin: auto;
   max-width: 70%;
-  margin: auto;
+  text-transform: uppercase;
 }
-/* line 346, ../sass/styles.scss */
+/* line 347, ../sass/styles.scss */
 .draft--quotes--text--wrapper {
-  max-width: 90%;
+  background: url("../img/quote_mark.png") no-repeat;
+  background-position: top 20px left -40px;
   margin: auto;
+  max-width: 90%;
+  position: relative;
 }
-/* line 351, ../sass/styles.scss */
+/* line 355, ../sass/styles.scss */
 .draft--quotes--attribution {
+  font-family: 'EndzoneSans-Medium';
+  font-size: 14px;
   font-weight: bold;
   letter-spacing: .14em;
-  font-size: 14px;
 }
-/* line 357, ../sass/styles.scss */
+/* line 362, ../sass/styles.scss */
 .draft--quotes--quotetext {
-  letter-spacing: .08em;
   font-size: 14px;
+  font-family: 'AauxNext-Medium';
+  letter-spacing: .08em;
   line-height: 28px;
 }
 
-/* line 368, ../sass/styles.scss */
+/* line 374, ../sass/styles.scss */
 .aboutus {
   padding: 60px 0 0;
 }
-/* line 371, ../sass/styles.scss */
+/* line 377, ../sass/styles.scss */
 .aboutus h1 {
   font-family: 'EndzoneSans-Medium';
-  letter-spacing: .24em;
+  font-size: 30px;
+  letter-spacing: .14em;
+  line-height: 38px;
   text-transform: uppercase;
 }
-/* line 377, ../sass/styles.scss */
+/* line 385, ../sass/styles.scss */
 .aboutus p {
   color: #171717;
   font-family: AauxNext-Medium;
@@ -370,24 +377,24 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 389, ../sass/styles.scss */
+/* line 397, ../sass/styles.scss */
 .aboutus .copyright {
   margin: 100px 0 30px 0;
 }
-/* line 392, ../sass/styles.scss */
+/* line 400, ../sass/styles.scss */
 .aboutus .copyright p, .aboutus .copyright a {
   font-size: 11px;
   color: #8e8e8e;
 }
-/* line 397, ../sass/styles.scss */
+/* line 405, ../sass/styles.scss */
 .aboutus .copyright a {
   text-decoration: underline;
 }
-/* line 402, ../sass/styles.scss */
+/* line 410, ../sass/styles.scss */
 .aboutus--logo {
   margin-bottom: 20px;
 }
-/* line 406, ../sass/styles.scss */
+/* line 414, ../sass/styles.scss */
 .aboutus--paragraphs--wrapper {
   margin-top: 40px;
 }
