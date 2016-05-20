@@ -395,12 +395,13 @@ body {
 /* line 364, ../sass/styles.scss */
 .draft {
   margin: 80px 0;
+  color: #ebebeb;
 }
-/* line 367, ../sass/styles.scss */
+/* line 369, ../sass/styles.scss */
 .draft h1 {
   text-transform: uppercase;
 }
-/* line 371, ../sass/styles.scss */
+/* line 373, ../sass/styles.scss */
 .draft--header {
   font-family: 'EndzoneSans-Medium';
   font-size: 21px;
@@ -409,57 +410,57 @@ body {
   margin-top: 40px;
   text-transform: uppercase;
 }
-/* line 380, ../sass/styles.scss */
+/* line 382, ../sass/styles.scss */
 .draft--vidframe {
   margin: 60px 0;
 }
-/* line 386, ../sass/styles.scss */
+/* line 388, ../sass/styles.scss */
 .draft--quotes--row {
   margin: auto;
   max-width: 70%;
   text-transform: uppercase;
 }
 @media all and (max-width: 767px) {
-  /* line 386, ../sass/styles.scss */
+  /* line 388, ../sass/styles.scss */
   .draft--quotes--row {
     width: 100%;
     max-width: none;
   }
 }
-/* line 398, ../sass/styles.scss */
+/* line 400, ../sass/styles.scss */
 .draft--quotes--text--wrapper {
   margin: auto;
   max-width: 90%;
   position: relative;
 }
 @media all and (max-width: 1023px) {
-  /* line 398, ../sass/styles.scss */
+  /* line 400, ../sass/styles.scss */
   .draft--quotes--text--wrapper {
     width: 100%;
   }
 }
 @media all and (max-width: 767px) {
-  /* line 398, ../sass/styles.scss */
+  /* line 400, ../sass/styles.scss */
   .draft--quotes--text--wrapper {
     margin-left: 55px;
     margin-bottom: 40px;
   }
 }
-/* line 413, ../sass/styles.scss */
+/* line 415, ../sass/styles.scss */
 .draft--quotes--attribution {
   font-family: 'EndzoneSans-Medium';
   font-size: 14px;
   font-weight: bold;
   letter-spacing: .14em;
 }
-/* line 420, ../sass/styles.scss */
+/* line 422, ../sass/styles.scss */
 .draft--quotes--quotetext {
   font-size: 14px;
   font-family: 'AauxNext-Medium';
   letter-spacing: .08em;
   line-height: 28px;
 }
-/* line 427, ../sass/styles.scss */
+/* line 429, ../sass/styles.scss */
 .draft--quotes--quoteimage {
   left: -55px;
   position: absolute;
@@ -467,11 +468,11 @@ body {
   z-index: -1;
 }
 
-/* line 438, ../sass/styles.scss */
+/* line 440, ../sass/styles.scss */
 .aboutus {
   padding: 60px 0 0;
 }
-/* line 441, ../sass/styles.scss */
+/* line 443, ../sass/styles.scss */
 .aboutus h1 {
   font-family: 'EndzoneSans-Medium';
   font-size: 30px;
@@ -480,7 +481,7 @@ body {
   margin-top: 0;
   text-transform: uppercase;
 }
-/* line 450, ../sass/styles.scss */
+/* line 452, ../sass/styles.scss */
 .aboutus p {
   color: #171717;
   font-family: AauxNext-Medium;
@@ -493,30 +494,30 @@ body {
   margin-right: auto;
 }
 @media all and (max-width: 767px) {
-  /* line 450, ../sass/styles.scss */
+  /* line 452, ../sass/styles.scss */
   .aboutus p {
     max-width: 90%;
   }
 }
-/* line 466, ../sass/styles.scss */
+/* line 468, ../sass/styles.scss */
 .aboutus .copyright {
   margin: 100px 0 30px 0;
 }
-/* line 469, ../sass/styles.scss */
+/* line 471, ../sass/styles.scss */
 .aboutus .copyright p, .aboutus .copyright a {
   color: #8e8e8e;
   font-size: 11px;
   line-height: 20px;
 }
-/* line 475, ../sass/styles.scss */
+/* line 477, ../sass/styles.scss */
 .aboutus .copyright a {
   text-decoration: underline;
 }
-/* line 480, ../sass/styles.scss */
+/* line 482, ../sass/styles.scss */
 .aboutus--logo {
   margin-bottom: 40px;
 }
-/* line 484, ../sass/styles.scss */
+/* line 486, ../sass/styles.scss */
 .aboutus--paragraphs--wrapper {
   margin-top: 40px;
 }
